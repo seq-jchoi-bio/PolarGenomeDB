@@ -1,0 +1,15 @@
+reference_id: arabidopsis_tair10_ensembl62
+scientific_name: Arabidopsis thaliana
+display_name: Arabidopsis TAIR10
+taxon_group: dicot
+assembly_version: TAIR10
+source_name: Ensembl Plants 62
+genome:
+  fasta: ../../datasets/reference/arabidopsis/genome.fa
+annotation:
+  file: ../../datasets/reference/arabidopsis/annotation.gtf.gz
+  format: gtf
+protein:
+  fasta: ../../datasets/reference/arabidopsis/protein.fa
+optional:
+  go_annotation: ../../datasets/reference/arabidopsis/go_annotation.gaf.gz

@@ -1,0 +1,73 @@
+.species-page.page-section { padding-top: 36px; }
+.species-page-inner { max-width: 1440px; margin: 0 auto; }
+.species-page-heading { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-bottom: 22px; border-bottom: 1px solid #dce5df; }
+.species-page-heading h1 { font-size: 26px; font-weight: 500; margin: 0; }
+.species-page-layout { display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 40px; padding-top: 30px; }
+.species-page-content { min-width: 0; }
+.species-switcher { display: grid; align-content: start; align-self: start; position: sticky; top: 100px; max-height: calc(100vh - 124px); overflow-y: auto; }
+.species-switcher button { display: flex; align-items: center; gap: 14px; background: none; border: 0; border-bottom: 1px solid #e2e9e5; padding: 6px 10px; color: #57695f; cursor: pointer; font: inherit; font-size: 16px; text-align: left; }
+.species-switcher button[aria-pressed="true"] { color: #245a50; background: #edf4ef; }
+.species-switcher button:hover { color: #245a50; background: #f3f7f4; }
+.species-switcher button img { width: 48px; height: 54px; object-fit: contain; flex: 0 0 48px; }
+.species-switcher button > span { display: grid; gap: 4px; min-width: 0; overflow-wrap: anywhere; line-height: 1.4; }
+.species-switcher button small { color: #728177; font-size: 13px; font-weight: 400; }
+.species-page em { font-family: var(--font-ui); font-style: italic; }
+.species-introduction { padding: 0 0 25px; }
+.species-naming { display: flex; gap: 20px; align-items: baseline; flex-wrap: wrap; }
+.species-naming h2 { margin: 0; font-size: 34px; line-height: 1.25; font-weight: 500; color: #203e36; }
+.species-naming > span { font-size: 15px; color: #577266; }
+.species-common-name { margin: 9px 0 0; font-size: 19px; color: #52615b; }
+.species-description { max-width: 91ch; font-size: 17px; line-height: 1.75; margin: 17px 0 0; color: #45524c; }
+.species-photo-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.species-photo-pair img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: contain; }
+.species-photo-pair figure { position: relative; margin: 0; min-width: 0; }
+.species-resource-band { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 32px; border-top: 1px solid #dce5df; padding-top: 32px; margin-top: 38px; }
+.species-band-intro h2 { font-size: 23px; font-weight: 500; color: #245a50; margin: 0; }
+.species-band-intro p { font-size: 16px; line-height: 1.7; color: #627168; margin: 12px 0 0; }
+.species-browser-link { display: inline-flex; align-items: center; gap: 8px; font: inherit; font-size: 15px; color: #245a50; background: none; border: 0; border-bottom: 1px solid #cbd9d1; padding: 8px 0; margin-top: 20px; cursor: pointer; }
+.species-browser-link:hover { border-color: #245a50; }
+.species-genome-facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 34px; margin: 0; }
+.species-genome-facts > div { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; border-bottom: 1px solid #e7ece8; padding: 13px 0; }
+.species-genome-facts dt { color: #637067; font-size: 15px; }
+.species-genome-facts dd { margin: 0; font-size: 18px; color: #253e34; font-variant-numeric: tabular-nums; text-align: right; }
+.species-genome-note { font-size: 13px; line-height: 1.6; color: #748077; margin: 15px 0 0; }
+.species-reference-note { font-size: 15px; color: #637067; margin: 18px 0 0; display: flex; gap: 16px; flex-wrap: wrap; }
+.species-reference-note span { color: #294e40; }
+.species-module-list { min-width: 0; }
+.species-module-row { display: grid; grid-template-columns: 24px minmax(0, 1fr) auto; align-items: center; gap: 16px; padding: 11px 0; border-bottom: 1px solid #e7ece8; }
+.species-module-row:first-child { padding-top: 0; }
+.species-module-icon { color: #547466; display: flex; }
+.species-module-icon svg { width: 22px; height: 22px; }
+.species-module-row button, .species-module-title { display: inline-flex; align-items: center; gap: 9px; background: none; border: 0; padding: 0; font: inherit; font-size: 18px; font-weight: 400; color: #284c3e; text-align: left; }
+.species-module-row button { cursor: pointer; }
+.species-module-row button:hover { text-decoration: underline; text-underline-offset: 4px; }
+.species-module-row p { font-size: 14px; line-height: 1.5; color: #728078; margin: 3px 0 0; }
+.species-module-status { display: flex; gap: 7px; align-items: center; color: #637067; font-size: 16px; font-weight: 500; }
+.species-module-status.is-available, .species-module-status.is-passed { color: #227247; }
+.species-module-status.is-disconnected { color: #b34444; }
+.species-module-status svg { flex-shrink: 0; }
+.species-page button:focus-visible, .species-page a:focus-visible { outline: 2px solid #387766; outline-offset: 4px; }
+@media (min-width: 901px) and (max-width: 1200px) {
+  .species-resource-band { grid-template-columns: 1fr; gap: 24px; }
+}
+@media (max-width: 900px) {
+  .species-page-layout { grid-template-columns: 220px minmax(0, 1fr); gap: 24px; }
+  .species-switcher button { gap: 10px; padding-inline: 6px; }
+  .species-switcher button img { width: 38px; flex-basis: 38px; }
+  .species-page-heading { align-items: flex-start; flex-direction: column; gap: 12px; }
+  .species-resource-band { grid-template-columns: 1fr; gap: 24px; }
+  .species-genome-facts { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .species-page.page-section { padding: 26px 20px 48px; }
+  .species-page-layout { grid-template-columns: 1fr; gap: 28px; padding-top: 18px; }
+  .species-switcher { position: static; max-height: 240px; }
+  .species-switcher button { font-size: 16px; padding: 6px 10px; }
+  .species-naming h2 { font-size: 28px; overflow-wrap: anywhere; }
+  .species-introduction { padding-top: 25px; }
+  .species-description { font-size: 16px; }
+  .species-photo-pair { grid-template-columns: 1fr; gap: 12px; }
+  .species-resource-band { grid-template-columns: 1fr; gap: 22px; margin-top: 28px; padding-top: 26px; }
+  .species-module-row { gap: 10px; grid-template-columns: 22px minmax(0, 1fr); }
+  .species-module-status { grid-column: 2; }
+}

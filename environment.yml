@@ -1,0 +1,18 @@
+name: antarctic-plantdb
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.12
+  - fastapi
+  - uvicorn
+  - pyyaml
+  - biopython>=1.85
+  - blast
+  - diamond
+  - samtools
+  - primer3
+  - bowtie2
+  - pip
+  - pip:
+      - primer3-py==2.3.1

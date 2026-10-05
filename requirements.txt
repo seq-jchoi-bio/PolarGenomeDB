@@ -1,0 +1,5 @@
+fastapi>=0.112
+uvicorn[standard]>=0.30
+PyYAML>=6.0
+primer3-py==2.3.1
+biopython>=1.85

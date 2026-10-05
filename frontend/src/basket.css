@@ -1,0 +1,26 @@
+.basket-nav-button { position: relative; }
+.basket-nav-button .basket-count { position: absolute; top: 0; right: -4px; min-width: 18px; height: 18px; padding: 0 4px; border-radius: 10px; display: grid; place-items: center; background: #285f47; color: white; font-size: 11px; line-height: 1; font-weight: 500; pointer-events: none; }
+.gene-basket-action { cursor: pointer; }
+.gene-basket-action.is-added { color: #267446; }
+.basket-dialog { width: min(680px, calc(100% - 32px)); max-height: min(760px, calc(100dvh - 48px)); padding: 0; border: 1px solid #ccd8d0; border-radius: 6px; color: #263e31; background: #fff; }
+.basket-dialog::backdrop { background: rgb(15 30 23 / 32%); }
+.basket-dialog[open] { display: flex; flex-direction: column; }
+.basket-heading { padding: 20px 24px; border-bottom: 1px solid #dde6df; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.basket-heading > div { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.basket-heading h2 { margin: 0; font-size: 23px; font-weight: 500; }
+.basket-heading span { font-size: 14px; color: #748077; }
+.basket-dialog button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 0; background: transparent; color: #315e44; font: inherit; font-size: 14px; padding: 8px; cursor: pointer; }
+.basket-dialog button:hover { background: #edf4ef; }
+.basket-dialog button:focus-visible { outline: 2px solid #377856; outline-offset: 2px; }
+.basket-content { overflow-y: auto; padding: 0 24px; }
+.basket-empty { padding: 32px 0; color: #758179; }
+.basket-group { padding: 20px 0; }
+.basket-group + .basket-group { border-top: 1px solid #ccd8d0; }
+.basket-group header { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.basket-group h3 { font-size: 18px; font-weight: 400; margin: 0; }
+.basket-group ul { list-style: none; margin: 12px 0 0; padding: 0; }
+.basket-group li { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 5px 0; border-top: 1px solid #e8ede9; font-size: 16px; }
+.basket-group li span { overflow-wrap: anywhere; min-width: 0; }
+.basket-group li button { flex-shrink: 0; }
+.basket-footer { padding: 12px 24px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; border-top: 1px solid #dde6df; font-size: 14px; }
+.basket-warning { padding: 12px 24px; color: #99412f; font-size: 14px; }

@@ -1,0 +1,21 @@
+species_id: Example
+scientific_name: Example species
+display_name: Example species
+taxon_group: dicot
+assembly_version: example-v1
+genome:
+  fasta: ../datasets/example/genome.fa
+annotation:
+  file: ../datasets/example/annotation.gff3
+  format: gff3
+protein:
+  fasta: ../datasets/example/protein.fa
+primer:
+  bowtie2_index_prefix: ../datasets/example/bowtie2/genome
+# Remove expression entirely if no expression data are available.
+# Omit bam_dir to load counts without making coverage tracks.
+expression:
+  sample_metadata: ../datasets/example/sample_metadata.csv
+  count_matrix: ../datasets/example/counts.tsv
+  count_has_header: true
+  count_value_type: raw_count

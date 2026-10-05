@@ -1,0 +1,650 @@
+{
+  "format": 1,
+  "files": [
+    {
+      "path": "backend/__init__.py",
+      "status": "unchanged",
+      "source_sha256": "d2867ded0f5e63bfc5ae09ed42f106123c6244f7cf66285a49d1a12107eafd1d",
+      "public_sha256": "d2867ded0f5e63bfc5ae09ed42f106123c6244f7cf66285a49d1a12107eafd1d"
+    },
+    {
+      "path": "backend/api_limits.py",
+      "status": "unchanged",
+      "source_sha256": "95d6fcb77cccf4297e1971f246e07ac4d7814f9059bc2dca8c313a293aec85b3",
+      "public_sha256": "95d6fcb77cccf4297e1971f246e07ac4d7814f9059bc2dca8c313a293aec85b3"
+    },
+    {
+      "path": "backend/config.py",
+      "status": "sanitized",
+      "source_sha256": "bb323d78a7123e12d566d1f7da80f07564b5bb0f0bb86823ace173b8e2818b02",
+      "public_sha256": "e90bd1ad7244f6895854525f057392e15de424e9bbfc38a4a12c9bb599e5de37"
+    },
+    {
+      "path": "backend/db.py",
+      "status": "unchanged",
+      "source_sha256": "24b920e86d389985a1a0b2c0d83a04a5c4b327650e844fe98ab13d38478a8d9b",
+      "public_sha256": "24b920e86d389985a1a0b2c0d83a04a5c4b327650e844fe98ab13d38478a8d9b"
+    },
+    {
+      "path": "backend/frontend.py",
+      "status": "unchanged",
+      "source_sha256": "4e55fa4521826dbfddfdfc5db25495295dfa585b92535b15df2cbd2048aa239e",
+      "public_sha256": "4e55fa4521826dbfddfdfc5db25495295dfa585b92535b15df2cbd2048aa239e"
+    },
+    {
+      "path": "backend/main.py",
+      "status": "unchanged",
+      "source_sha256": "ece322300ce03412af8a7c460fc59d4ed5b3299c046e04b04e22789584fcd03f",
+      "public_sha256": "ece322300ce03412af8a7c460fc59d4ed5b3299c046e04b04e22789584fcd03f"
+    },
+    {
+      "path": "backend/routes/__init__.py",
+      "status": "unchanged",
+      "source_sha256": "54fdbe4dbd01a28f6966964cd382c2c7eb06acd9bc1bf2714a0390b172d3fae1",
+      "public_sha256": "54fdbe4dbd01a28f6966964cd382c2c7eb06acd9bc1bf2714a0390b172d3fae1"
+    },
+    {
+      "path": "backend/routes/assets.py",
+      "status": "unchanged",
+      "source_sha256": "70ea45e0bb848362e4005093f8dbf01a05736f4fd226711f2ecd992be141b002",
+      "public_sha256": "70ea45e0bb848362e4005093f8dbf01a05736f4fd226711f2ecd992be141b002"
+    },
+    {
+      "path": "backend/routes/browser_files.py",
+      "status": "unchanged",
+      "source_sha256": "d9fd2f43822436674621f37e70ce192b70e5c2d3294e8d47075b3ed41d1f94f7",
+      "public_sha256": "d9fd2f43822436674621f37e70ce192b70e5c2d3294e8d47075b3ed41d1f94f7"
+    },
+    {
+      "path": "backend/routes/domains.py",
+      "status": "unchanged",
+      "source_sha256": "473936a757a0ac1e0606fa6381b671e56b3ffe93b0fa88a9dec12b7c8f4224f9",
+      "public_sha256": "473936a757a0ac1e0606fa6381b671e56b3ffe93b0fa88a9dec12b7c8f4224f9"
+    },
+    {
+      "path": "backend/routes/expression.py",
+      "status": "unchanged",
+      "source_sha256": "d7831f21d641081979e00a6819b301a5c12431eaac91276da4b95863bd33417f",
+      "public_sha256": "d7831f21d641081979e00a6819b301a5c12431eaac91276da4b95863bd33417f"
+    },
+    {
+      "path": "backend/routes/features.py",
+      "status": "unchanged",
+      "source_sha256": "8b87e249fc5c22b3a67f1b7b956d5b5344916a7cb99c4cbd7553e28b85255e71",
+      "public_sha256": "8b87e249fc5c22b3a67f1b7b956d5b5344916a7cb99c4cbd7553e28b85255e71"
+    },
+    {
+      "path": "backend/routes/genes.py",
+      "status": "unchanged",
+      "source_sha256": "b441a1aa99793ec704c982afbf7fd68d6d1d4ee915ed855dc658b9604ee3c295",
+      "public_sha256": "b441a1aa99793ec704c982afbf7fd68d6d1d4ee915ed855dc658b9604ee3c295"
+    },
+    {
+      "path": "backend/routes/go.py",
+      "status": "unchanged",
+      "source_sha256": "f7166d08f21dd17bda11e0d5b2fb01857d8cb47979703aaec8972804478f27da",
+      "public_sha256": "f7166d08f21dd17bda11e0d5b2fb01857d8cb47979703aaec8972804478f27da"
+    },
+    {
+      "path": "backend/routes/phylogeny.py",
+      "status": "unchanged",
+      "source_sha256": "a4caed66f177bc11119152af21a4e03286f38b70c12b677e5bac33b9dbf016b2",
+      "public_sha256": "a4caed66f177bc11119152af21a4e03286f38b70c12b677e5bac33b9dbf016b2"
+    },
+    {
+      "path": "backend/routes/primer.py",
+      "status": "unchanged",
+      "source_sha256": "b71a7d503ee9e07b3964c0d5f88674b7cc2d1976da907db8658849990895767e",
+      "public_sha256": "b71a7d503ee9e07b3964c0d5f88674b7cc2d1976da907db8658849990895767e"
+    },
+    {
+      "path": "backend/routes/search.py",
+      "status": "unchanged",
+      "source_sha256": "22c508dfe542cb5cf367ffac4c48175a03c787688323f6ce806e329360f66a37",
+      "public_sha256": "22c508dfe542cb5cf367ffac4c48175a03c787688323f6ce806e329360f66a37"
+    },
+    {
+      "path": "backend/routes/similarity.py",
+      "status": "unchanged",
+      "source_sha256": "c68e2dfd59926d0676f4da65999369a99b55c76aeead4ab8c7d4990cc729e702",
+      "public_sha256": "c68e2dfd59926d0676f4da65999369a99b55c76aeead4ab8c7d4990cc729e702"
+    },
+    {
+      "path": "backend/routes/species.py",
+      "status": "unchanged",
+      "source_sha256": "39fb70c477defdf4e12d90c9d3ebd213b93a2afc342419944866ef0ebd45aae9",
+      "public_sha256": "39fb70c477defdf4e12d90c9d3ebd213b93a2afc342419944866ef0ebd45aae9"
+    },
+    {
+      "path": "backend/routes/system.py",
+      "status": "unchanged",
+      "source_sha256": "88b3e7361896d9ff64b22cf16c4269a7f82b873c282d95951cd425ec488be6e1",
+      "public_sha256": "88b3e7361896d9ff64b22cf16c4269a7f82b873c282d95951cd425ec488be6e1"
+    },
+    {
+      "path": "backend/routes/tracks.py",
+      "status": "unchanged",
+      "source_sha256": "59210046bc91f5ae74f5caee3512428ed5f75ddae8f929e8f2669d3412904a5c",
+      "public_sha256": "59210046bc91f5ae74f5caee3512428ed5f75ddae8f929e8f2669d3412904a5c"
+    },
+    {
+      "path": "backend/runtime.py",
+      "status": "unchanged",
+      "source_sha256": "c114f3df59fe0f09eadb3f43902326407554c02d262c4f4a229fa9ea22e1dd2e",
+      "public_sha256": "c114f3df59fe0f09eadb3f43902326407554c02d262c4f4a229fa9ea22e1dd2e"
+    },
+    {
+      "path": "backend/services/__init__.py",
+      "status": "unchanged",
+      "source_sha256": "5b9086758a1ce5e647c9a5b16d19f62a3adef89b6438492df6dece27229cde22",
+      "public_sha256": "5b9086758a1ce5e647c9a5b16d19f62a3adef89b6438492df6dece27229cde22"
+    },
+    {
+      "path": "backend/services/bowtie_indexes.py",
+      "status": "unchanged",
+      "source_sha256": "5ef8c9adbedd2e74928fc57e9538dd2ac3c1c5e4319f8d158ad40e40acb1c560",
+      "public_sha256": "5ef8c9adbedd2e74928fc57e9538dd2ac3c1c5e4319f8d158ad40e40acb1c560"
+    },
+    {
+      "path": "backend/services/gene_service.py",
+      "status": "unchanged",
+      "source_sha256": "07b66fd8b0e227aff031f3b1f12822b88d9632b1730d5748df6495a3086f9397",
+      "public_sha256": "07b66fd8b0e227aff031f3b1f12822b88d9632b1730d5748df6495a3086f9397"
+    },
+    {
+      "path": "backend/services/job_files.py",
+      "status": "unchanged",
+      "source_sha256": "10639b0d9d80cf368f2c97bea22b3cb5380e5a176e5dbab6ef80cf51536eb8ad",
+      "public_sha256": "10639b0d9d80cf368f2c97bea22b3cb5380e5a176e5dbab6ef80cf51536eb8ad"
+    },
+    {
+      "path": "backend/services/job_manager.py",
+      "status": "unchanged",
+      "source_sha256": "e5e7689717ae008175c9777b26fd7a8b4943aad98363ca8aca009c4fabb019e0",
+      "public_sha256": "e5e7689717ae008175c9777b26fd7a8b4943aad98363ca8aca009c4fabb019e0"
+    },
+    {
+      "path": "backend/services/pfam.py",
+      "status": "unchanged",
+      "source_sha256": "dfd0c0f339663a1b95e2a885c7fc507910ad50293c788b280106cc3be478bb49",
+      "public_sha256": "dfd0c0f339663a1b95e2a885c7fc507910ad50293c788b280106cc3be478bb49"
+    },
+    {
+      "path": "backend/services/phylogeny_jobs.py",
+      "status": "unchanged",
+      "source_sha256": "b7a7eba60e82ad789eb1fc2be16f1e02ab2bec90a46454f551d3dede70afa76d",
+      "public_sha256": "b7a7eba60e82ad789eb1fc2be16f1e02ab2bec90a46454f551d3dede70afa76d"
+    },
+    {
+      "path": "backend/services/primer_jobs.py",
+      "status": "unchanged",
+      "source_sha256": "79db347d27b14f0148ed6cf3bf722e73e1032d05d31bcbe3f39ec475625f97f7",
+      "public_sha256": "79db347d27b14f0148ed6cf3bf722e73e1032d05d31bcbe3f39ec475625f97f7"
+    },
+    {
+      "path": "backend/services/protein_similarity.py",
+      "status": "unchanged",
+      "source_sha256": "a117772a4c894ea3a105c51644e5ab5cf5036995fa13ff4d4b08297f7f74a6bc",
+      "public_sha256": "a117772a4c894ea3a105c51644e5ab5cf5036995fa13ff4d4b08297f7f74a6bc"
+    },
+    {
+      "path": "backend/services/reference_lookup.py",
+      "status": "unchanged",
+      "source_sha256": "61e2e111f2485ea343f41176d5f3c88bd79bb560be5b69e7caeca8c8a8e175fc",
+      "public_sha256": "61e2e111f2485ea343f41176d5f3c88bd79bb560be5b69e7caeca8c8a8e175fc"
+    },
+    {
+      "path": "backend/services/search_jobs.py",
+      "status": "unchanged",
+      "source_sha256": "0f89920c0e88e5c1cb1910e2fc41624998bb12c7ac43a4057fd1fce3761d7346",
+      "public_sha256": "0f89920c0e88e5c1cb1910e2fc41624998bb12c7ac43a4057fd1fce3761d7346"
+    },
+    {
+      "path": "backend/services/similar_export.py",
+      "status": "unchanged",
+      "source_sha256": "8058cc784c12105c712f499a6ed93529b7b7d85c30a760f15080c95b14ee4ad9",
+      "public_sha256": "8058cc784c12105c712f499a6ed93529b7b7d85c30a760f15080c95b14ee4ad9"
+    },
+    {
+      "path": "backend/services/similar_jobs.py",
+      "status": "unchanged",
+      "source_sha256": "6096ca7aae225bbede5223ae130582513e1cfe065a815ffebf11ac1688ea2211",
+      "public_sha256": "6096ca7aae225bbede5223ae130582513e1cfe065a815ffebf11ac1688ea2211"
+    },
+    {
+      "path": "backend/tests/test_asset_availability.py",
+      "status": "unchanged",
+      "source_sha256": "16ef95b28c708c529e5952b2594f0fb28d503bba843fbea27ff7873ffb902ffc",
+      "public_sha256": "16ef95b28c708c529e5952b2594f0fb28d503bba843fbea27ff7873ffb902ffc"
+    },
+    {
+      "path": "backend/tests/test_browser_files.py",
+      "status": "unchanged",
+      "source_sha256": "8ce56aa47615398be98ff08f2594c4fb02765abdfba558410e6bc8fca085ea1f",
+      "public_sha256": "8ce56aa47615398be98ff08f2594c4fb02765abdfba558410e6bc8fca085ea1f"
+    },
+    {
+      "path": "backend/tests/test_build_pipeline.py",
+      "status": "unchanged",
+      "source_sha256": "cde344ff7beee050686610c20cc221ddfe8d8132b10e4b85c45649c2f9d2e044",
+      "public_sha256": "cde344ff7beee050686610c20cc221ddfe8d8132b10e4b85c45649c2f9d2e044"
+    },
+    {
+      "path": "backend/tests/test_job_files.py",
+      "status": "unchanged",
+      "source_sha256": "6387a7cf8df933e45a8ae7cea6b60999a66efbd4d5dc96cb2c87e7def25e687a",
+      "public_sha256": "6387a7cf8df933e45a8ae7cea6b60999a66efbd4d5dc96cb2c87e7def25e687a"
+    },
+    {
+      "path": "backend/tests/test_job_manager.py",
+      "status": "unchanged",
+      "source_sha256": "106ae3f7a8b040bae5d67310c54694d3fc4fa59a4c24d6dfc53f48f5527023ba",
+      "public_sha256": "106ae3f7a8b040bae5d67310c54694d3fc4fa59a4c24d6dfc53f48f5527023ba"
+    },
+    {
+      "path": "backend/tests/test_primer_jobs.py",
+      "status": "unchanged",
+      "source_sha256": "4e01612428d2a86667194cf50d2780a10d3aabc751ed781f07db3e9e103b95ee",
+      "public_sha256": "4e01612428d2a86667194cf50d2780a10d3aabc751ed781f07db3e9e103b95ee"
+    },
+    {
+      "path": "backend/tests/test_search_jobs.py",
+      "status": "unchanged",
+      "source_sha256": "770e0f099aa513ed6670ae91e45f4368f0940963965f9415b397087fd1791675",
+      "public_sha256": "770e0f099aa513ed6670ae91e45f4368f0940963965f9415b397087fd1791675"
+    },
+    {
+      "path": "backend/tests/test_similar_export.py",
+      "status": "unchanged",
+      "source_sha256": "7873341412f42262ba833c4605b97ac235cc9befb3e96a64a6b8f1fa9142a547",
+      "public_sha256": "7873341412f42262ba833c4605b97ac235cc9befb3e96a64a6b8f1fa9142a547"
+    },
+    {
+      "path": "config/api_limits.yaml",
+      "status": "unchanged",
+      "source_sha256": "020e21ca36753529b766012ceff8d944222e875166cbf232908f9357f98cfdf0",
+      "public_sha256": "020e21ca36753529b766012ceff8d944222e875166cbf232908f9357f98cfdf0"
+    },
+    {
+      "path": "environment.yml",
+      "status": "unchanged",
+      "source_sha256": "288bf4ac0f9498f491a87af58d044b6740480fef3992118049c585f6574d2f16",
+      "public_sha256": "288bf4ac0f9498f491a87af58d044b6740480fef3992118049c585f6574d2f16"
+    },
+    {
+      "path": "frontend/index.html",
+      "status": "sanitized",
+      "source_sha256": "26a76f0a8297fe873df75f136b23486ca54529c5b09fe9ee1b74d2ab6261f25a",
+      "public_sha256": "67aae2394318fea577c19050ec90f12e3e8956f7060b6a8205f9f47ea0406055"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "status": "unchanged",
+      "source_sha256": "fe4d47ae2405897b786fdb2119cba1406420d1671d523f12dcdd241610730688",
+      "public_sha256": "fe4d47ae2405897b786fdb2119cba1406420d1671d523f12dcdd241610730688"
+    },
+    {
+      "path": "frontend/package.json",
+      "status": "unchanged",
+      "source_sha256": "f28a018fac67317c97418df4cd22ba1642f8da4bfc3a98014d6deaaebd763b9c",
+      "public_sha256": "f28a018fac67317c97418df4cd22ba1642f8da4bfc3a98014d6deaaebd763b9c"
+    },
+    {
+      "path": "frontend/public/fonts/tex-gyre-heros/GUST-FONT-LICENSE.txt",
+      "status": "unchanged",
+      "source_sha256": "2bd69affc3da00715116f713f57eab9707e96daf3562ad0215987b15b9c16f73",
+      "public_sha256": "2bd69affc3da00715116f713f57eab9707e96daf3562ad0215987b15b9c16f73"
+    },
+    {
+      "path": "frontend/public/fonts/tex-gyre-heros/LPPL-1.3c.txt",
+      "status": "unchanged",
+      "source_sha256": "3d262cdf34dafa6955f703c634a8c238ec44109bc8dd6ef34fb7aa54809f7e66",
+      "public_sha256": "3d262cdf34dafa6955f703c634a8c238ec44109bc8dd6ef34fb7aa54809f7e66"
+    },
+    {
+      "path": "frontend/public/fonts/tex-gyre-heros/MANIFEST-TeX-Gyre-Heros.txt",
+      "status": "unchanged",
+      "source_sha256": "3263a067e409258be34027de883e618cc2c76c70135897835f65f3c569dec5d1",
+      "public_sha256": "3263a067e409258be34027de883e618cc2c76c70135897835f65f3c569dec5d1"
+    },
+    {
+      "path": "frontend/public/fonts/tex-gyre-heros/README-TeX-Gyre-Heros.txt",
+      "status": "unchanged",
+      "source_sha256": "cb41cbe4091a67a7a7b39df62553a7fc05f03e9014d7d1e148687967f3250188",
+      "public_sha256": "cb41cbe4091a67a7a7b39df62553a7fc05f03e9014d7d1e148687967f3250188"
+    },
+    {
+      "path": "frontend/public/fonts/tex-gyre-heros/SOURCE.md",
+      "status": "unchanged",
+      "source_sha256": "7044e5e99c5ef0796841d9ea9ab98314facdd026fa8917929e2e7a50954850fb",
+      "public_sha256": "7044e5e99c5ef0796841d9ea9ab98314facdd026fa8917929e2e7a50954850fb"
+    },
+    {
+      "path": "frontend/public/fonts/tex-gyre-heros/texgyreheros-bold.otf",
+      "status": "unchanged",
+      "source_sha256": "b170162835f4efc288886dd4231406dc47e19b614cf4416836635599d44a7d60",
+      "public_sha256": "b170162835f4efc288886dd4231406dc47e19b614cf4416836635599d44a7d60"
+    },
+    {
+      "path": "frontend/public/fonts/tex-gyre-heros/texgyreheros-bolditalic.otf",
+      "status": "unchanged",
+      "source_sha256": "166fc6d068d9c9974281555cb3d730365537a9b676ab269bb5163f5a75496505",
+      "public_sha256": "166fc6d068d9c9974281555cb3d730365537a9b676ab269bb5163f5a75496505"
+    },
+    {
+      "path": "frontend/public/fonts/tex-gyre-heros/texgyreheros-italic.otf",
+      "status": "unchanged",
+      "source_sha256": "6473df7fa107b3fb4be38973710afe22b0640c2ac076d5337cf126bed9aa108c",
+      "public_sha256": "6473df7fa107b3fb4be38973710afe22b0640c2ac076d5337cf126bed9aa108c"
+    },
+    {
+      "path": "frontend/public/fonts/tex-gyre-heros/texgyreheros-regular.otf",
+      "status": "unchanged",
+      "source_sha256": "6ae1a09d5a940367b7aaaa91ee8bd8a2c333bfe193e7096e23f931357d62081f",
+      "public_sha256": "6ae1a09d5a940367b7aaaa91ee8bd8a2c333bfe193e7096e23f931357d62081f"
+    },
+    {
+      "path": "frontend/src/Basket.tsx",
+      "status": "unchanged",
+      "source_sha256": "b7ffe724a809d71b341af29691efae8a9957ed83fa5fd511bd598662725d26a7",
+      "public_sha256": "b7ffe724a809d71b341af29691efae8a9957ed83fa5fd511bd598662725d26a7"
+    },
+    {
+      "path": "frontend/src/PrivacyPage.tsx",
+      "status": "unchanged",
+      "source_sha256": "ec357d565b2e072d14e2cc3b8c406a53369f5fcd620cb681c5d0e6c904c07535",
+      "public_sha256": "ec357d565b2e072d14e2cc3b8c406a53369f5fcd620cb681c5d0e6c904c07535"
+    },
+    {
+      "path": "frontend/src/ResourcesPage.tsx",
+      "status": "unchanged",
+      "source_sha256": "1041708eb2ec9ccf62f3243522aefb1fe7628114926e63a2f93f70b61f847cc5",
+      "public_sha256": "1041708eb2ec9ccf62f3243522aefb1fe7628114926e63a2f93f70b61f847cc5"
+    },
+    {
+      "path": "frontend/src/SectionIndex.tsx",
+      "status": "unchanged",
+      "source_sha256": "ae301862840b60aca43a1ead72952b1a67a05c0194f25de2f924986f8ec9f0c0",
+      "public_sha256": "ae301862840b60aca43a1ead72952b1a67a05c0194f25de2f924986f8ec9f0c0"
+    },
+    {
+      "path": "frontend/src/SpeciesPage.tsx",
+      "status": "sanitized",
+      "source_sha256": "9a9467c3ab66297296e6f8840c5ec2887d3e0e23445b617711c2e1dfc548c7b0",
+      "public_sha256": "5ecf6d339fc7de71d109487ea5e4bd80b4babff2c3324bcc8eb17c4f90c8aee4"
+    },
+    {
+      "path": "frontend/src/api/client.ts",
+      "status": "unchanged",
+      "source_sha256": "3390b8211587fb503be52f8aabd8ae3075b0f719aae559f0e1ef94741d113259",
+      "public_sha256": "3390b8211587fb503be52f8aabd8ae3075b0f719aae559f0e1ef94741d113259"
+    },
+    {
+      "path": "frontend/src/basket.css",
+      "status": "unchanged",
+      "source_sha256": "9c563f3d00e33482c9b26ef31c193db4d9ae47c898a0ac92627a858a3b0afdfd",
+      "public_sha256": "9c563f3d00e33482c9b26ef31c193db4d9ae47c898a0ac92627a858a3b0afdfd"
+    },
+    {
+      "path": "frontend/src/exportTree.ts",
+      "status": "unchanged",
+      "source_sha256": "a5e6e9239fff139d7ac7e015525aeaf59493b578daf89dfb7b1bd2bb84877a5d",
+      "public_sha256": "a5e6e9239fff139d7ac7e015525aeaf59493b578daf89dfb7b1bd2bb84877a5d"
+    },
+    {
+      "path": "frontend/src/expressionPattern.ts",
+      "status": "unchanged",
+      "source_sha256": "6a3952c47542c5d785c9dcdbb566e4df26e142caafc3f7c9a74387509b2cf969",
+      "public_sha256": "6a3952c47542c5d785c9dcdbb566e4df26e142caafc3f7c9a74387509b2cf969"
+    },
+    {
+      "path": "frontend/src/fonts.css",
+      "status": "unchanged",
+      "source_sha256": "4c2a30e315f2f5f6b7be8a03beb88c04296d451ff8cb61cd70c0123ba17ace66",
+      "public_sha256": "4c2a30e315f2f5f6b7be8a03beb88c04296d451ff8cb61cd70c0123ba17ace66"
+    },
+    {
+      "path": "frontend/src/goExport.ts",
+      "status": "unchanged",
+      "source_sha256": "15b5d0c37903c0b0c4c1525bb9402cedd2fc400984b4f97d2496fd44f77777e3",
+      "public_sha256": "15b5d0c37903c0b0c4c1525bb9402cedd2fc400984b4f97d2496fd44f77777e3"
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "status": "sanitized",
+      "source_sha256": "deb114e6706e686a74fe13ba18156356afca265a0a527df3042b857111e1738d",
+      "public_sha256": "c70694f642f0b147820de9d41155c72380c27668ce5a38b01f9a0ab54f528e7a"
+    },
+    {
+      "path": "frontend/src/primerPresentation.ts",
+      "status": "unchanged",
+      "source_sha256": "cd44c75b26034b161b1973ddc25b38f14d77c9c99d18611fd31c2967f2292d54",
+      "public_sha256": "cd44c75b26034b161b1973ddc25b38f14d77c9c99d18611fd31c2967f2292d54"
+    },
+    {
+      "path": "frontend/src/privacy.css",
+      "status": "unchanged",
+      "source_sha256": "406214c7be39ad2d84774802df6bd546eb56c35d09b774f11a9e66adde229280",
+      "public_sha256": "406214c7be39ad2d84774802df6bd546eb56c35d09b774f11a9e66adde229280"
+    },
+    {
+      "path": "frontend/src/resources.css",
+      "status": "unchanged",
+      "source_sha256": "e42ab2528f1201a56aff7dea5c3a2213787084dee18a262dea000b39770b7bf3",
+      "public_sha256": "e42ab2528f1201a56aff7dea5c3a2213787084dee18a262dea000b39770b7bf3"
+    },
+    {
+      "path": "frontend/src/species.css",
+      "status": "unchanged",
+      "source_sha256": "e8474a0f5667334fdfb2b52350aa671fe390362d008b4576f22c9794a59ff2cb",
+      "public_sha256": "e8474a0f5667334fdfb2b52350aa671fe390362d008b4576f22c9794a59ff2cb"
+    },
+    {
+      "path": "frontend/src/styles.css",
+      "status": "unchanged",
+      "source_sha256": "6cf1bbb1fcc33dfe4f99c957e86ed1bfad99d08779a96d88f615854af4685332",
+      "public_sha256": "6cf1bbb1fcc33dfe4f99c957e86ed1bfad99d08779a96d88f615854af4685332"
+    },
+    {
+      "path": "frontend/src/transcriptGeometry.ts",
+      "status": "unchanged",
+      "source_sha256": "d4294963de438d078b9c826c38abf199fff0e352212406ce908aeb5c78f10ee5",
+      "public_sha256": "d4294963de438d078b9c826c38abf199fff0e352212406ce908aeb5c78f10ee5"
+    },
+    {
+      "path": "frontend/src/vite-env.d.ts",
+      "status": "unchanged",
+      "source_sha256": "bf144e3cdae616e27b064c8c2b94b14525e220fb3facc4cb4884d21b65eb5aa5",
+      "public_sha256": "bf144e3cdae616e27b064c8c2b94b14525e220fb3facc4cb4884d21b65eb5aa5"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "status": "unchanged",
+      "source_sha256": "fb75bddd6ef7c3fbc7872d73786cb844e125a0348751ea549c8655e09f1f07e9",
+      "public_sha256": "fb75bddd6ef7c3fbc7872d73786cb844e125a0348751ea549c8655e09f1f07e9"
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "status": "unchanged",
+      "source_sha256": "cc66c8d36c0540cdad176faf1feb20f2d994d1f89cab78c18bbc030ff59ff1db",
+      "public_sha256": "cc66c8d36c0540cdad176faf1feb20f2d994d1f89cab78c18bbc030ff59ff1db"
+    },
+    {
+      "path": "requirements.txt",
+      "status": "unchanged",
+      "source_sha256": "2244a85499bc857500d11fc098f7da5cbe77c344ae1768d7b0aba870bc2ed5d8",
+      "public_sha256": "2244a85499bc857500d11fc098f7da5cbe77c344ae1768d7b0aba870bc2ed5d8"
+    },
+    {
+      "path": "scripts/build_all.py",
+      "status": "unchanged",
+      "source_sha256": "b9c8fd7049990e05664e4d318427aaeef905c7148383ad5aaf0cbd075eb0657b",
+      "public_sha256": "b9c8fd7049990e05664e4d318427aaeef905c7148383ad5aaf0cbd075eb0657b"
+    },
+    {
+      "path": "scripts/build_expression.py",
+      "status": "sanitized",
+      "source_sha256": "834f32739763b69d774eb36d17a6d75a33594e0a33fac49d1932132b435c7fa6",
+      "public_sha256": "4fbaa32bf114d22763d0616c07e83f5df7aab58d918858458bdcb8303225e762"
+    },
+    {
+      "path": "scripts/build_go_ontology.py",
+      "status": "unchanged",
+      "source_sha256": "d6d703c6b1ddcab150013a3e7c19fcbecf21baf64a7a90baca052f7de3ec6a73",
+      "public_sha256": "d6d703c6b1ddcab150013a3e7c19fcbecf21baf64a7a90baca052f7de3ec6a73"
+    },
+    {
+      "path": "scripts/build_jbrowse_assets.py",
+      "status": "sanitized",
+      "source_sha256": "1a29aaa5bdb9c4010f662e4c2e6e124935a52660f4b3712c16bfdb247c3fc61a",
+      "public_sha256": "0790e2a6c8f27488d7a99cd509466ae0b531343b15051918abec05b8ca43504e"
+    },
+    {
+      "path": "scripts/build_jbrowse_config.py",
+      "status": "unchanged",
+      "source_sha256": "2881d91dd3d31affd57dd3bb72eb913db6fcc4493b00dbe07b5d025b4d75b9cc",
+      "public_sha256": "2881d91dd3d31affd57dd3bb72eb913db6fcc4493b00dbe07b5d025b4d75b9cc"
+    },
+    {
+      "path": "scripts/build_pfam_domains.py",
+      "status": "unchanged",
+      "source_sha256": "f564ae262949df714a3623e46b9fc30e26fb883436b8a8c1b08c1ff953d35b09",
+      "public_sha256": "f564ae262949df714a3623e46b9fc30e26fb883436b8a8c1b08c1ff953d35b09"
+    },
+    {
+      "path": "scripts/build_reference.py",
+      "status": "sanitized",
+      "source_sha256": "406d4191247faf75fdb486d7d915bdb3bea91f119d5550bae8090d19570f9557",
+      "public_sha256": "7b985503578553d5a2a047891c72386d05ad2c7656e50309faf6775a38d9b6d5"
+    },
+    {
+      "path": "scripts/build_reference_aliases.py",
+      "status": "unchanged",
+      "source_sha256": "26c9a8341df740aff8241df61770cfbee35bf6a98e6ebb1f35ccb2b2988110cf",
+      "public_sha256": "26c9a8341df740aff8241df61770cfbee35bf6a98e6ebb1f35ccb2b2988110cf"
+    },
+    {
+      "path": "scripts/build_reference_pfam_domains.py",
+      "status": "unchanged",
+      "source_sha256": "50ede118be9ff0a4721d6564d390fbb970dbb272856fb3ce17a7e6e71241e2b0",
+      "public_sha256": "50ede118be9ff0a4721d6564d390fbb970dbb272856fb3ce17a7e6e71241e2b0"
+    },
+    {
+      "path": "scripts/build_runtime_indexes.py",
+      "status": "unchanged",
+      "source_sha256": "a977c1f99f6635969de3aeb36dd8c21583da664e55a22d25af7b0be76f1b0e6e",
+      "public_sha256": "a977c1f99f6635969de3aeb36dd8c21583da664e55a22d25af7b0be76f1b0e6e"
+    },
+    {
+      "path": "scripts/build_search_indexes.py",
+      "status": "sanitized",
+      "source_sha256": "33b91e49a3cd114883c08b403fdfcd489bf129e628840f026b32cd8ab6c2ba9b",
+      "public_sha256": "7109e30322d849e3dba3252a01267b1e019be934a0296f8be8f80e1d27c85f50"
+    },
+    {
+      "path": "scripts/build_similarity_hits.py",
+      "status": "sanitized",
+      "source_sha256": "7799f99580d65088e2d2dcdd4fe21e88fd45ce5658987902acb64560998332a7",
+      "public_sha256": "051635ef0fbb5cb23cad07a1b1218febde90b9258178f267e08a04bd7b55d918"
+    },
+    {
+      "path": "scripts/build_species.py",
+      "status": "unchanged",
+      "source_sha256": "a32c718e1c71e39097a2c7f58688f593efe80f48e30cf361664b6f33b2fce2c2",
+      "public_sha256": "a32c718e1c71e39097a2c7f58688f593efe80f48e30cf361664b6f33b2fce2c2"
+    },
+    {
+      "path": "scripts/create_reference_pfam_subset.py",
+      "status": "unchanged",
+      "source_sha256": "ce36182ece6f259d740d56a46d484af5790a4bd861456c62363324bcf9c7c3b3",
+      "public_sha256": "ce36182ece6f259d740d56a46d484af5790a4bd861456c62363324bcf9c7c3b3"
+    },
+    {
+      "path": "scripts/import_reference_pfam_domains.py",
+      "status": "unchanged",
+      "source_sha256": "8b462343c6bc8f2fded6de89da181108cfb0eb741776a3f6559f0a8fe60e8575",
+      "public_sha256": "8b462343c6bc8f2fded6de89da181108cfb0eb741776a3f6559f0a8fe60e8575"
+    },
+    {
+      "path": "scripts/register_bowtie2_index.py",
+      "status": "unchanged",
+      "source_sha256": "8f0a507cd402f58d8d86144b6373a3fc289b78d9b1d317dcecbb068a8bbdd5c3",
+      "public_sha256": "8f0a507cd402f58d8d86144b6373a3fc289b78d9b1d317dcecbb068a8bbdd5c3"
+    },
+    {
+      "path": ".env.example",
+      "status": "public-only",
+      "public_sha256": "1435797f3a2e8b1981e36791d249b2b074a1c48b3534b452c79a4a7a9190bb25"
+    },
+    {
+      "path": ".gitignore",
+      "status": "public-only",
+      "public_sha256": "fd509cbd463def797c16eb8b1649042edf610a1631d1b5c15cc178530203bf74"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "status": "public-only",
+      "public_sha256": "db563d7fd144d05cd4ae0a3455bd51e279283bc4c56193cd9810c329201529c9"
+    },
+    {
+      "path": "GETTING_STARTED.md",
+      "status": "public-only",
+      "public_sha256": "31943d1d6d0d453d7eb26871c1cff0ee375a00b7aa6e9cf4646d55e1fdc7ca20"
+    },
+    {
+      "path": "LICENSE",
+      "status": "public-only",
+      "public_sha256": "d65ede98d429c6e2ec1382328bd1258cb5a60aaefeeb45532f89abb291948440"
+    },
+    {
+      "path": "NOTICE.md",
+      "status": "public-only",
+      "public_sha256": "6c15aea84746d017c385fe02a478953e701d31cd88af435f8562ae17804cb6be"
+    },
+    {
+      "path": "README.md",
+      "status": "public-only",
+      "public_sha256": "63d609cd10baec56a2fe66df34484d39ef3c449faada77b309069b9255bb19a3"
+    },
+    {
+      "path": "SOURCE_CHANGES.md",
+      "status": "public-only",
+      "public_sha256": "ccdd25130c0483112f37d9424b2b9ea9ac8a2f1dbacb7846178be01edfbd1cc4"
+    },
+    {
+      "path": "architecture/level-1-system-context.png",
+      "status": "public-only",
+      "public_sha256": "b926177783caefd8fffda6f8e32b99189d1645fae012a94ce2546106568b8c98"
+    },
+    {
+      "path": "architecture/level-2-container.png",
+      "status": "public-only",
+      "public_sha256": "e4600388c1c52277a4127d48a8b2b2f5657ad204acb1a964bf6c05bcd28322bc"
+    },
+    {
+      "path": "frontend/public/images/withheld.svg",
+      "status": "public-only",
+      "public_sha256": "fc7481a3b1a43835d0030fc2fc7189ede2c9f58972559b7f4725c06d7117803d"
+    },
+    {
+      "path": "manifests/references/arabidopsis.example.yaml",
+      "status": "public-only",
+      "public_sha256": "150c2d56567a2c5b9925fb546ae4b750395440ae97838a9ee66b376cc9b4a5e5"
+    },
+    {
+      "path": "manifests/references/rice.example.yaml",
+      "status": "public-only",
+      "public_sha256": "b4abb51fed0d3e266d8572d0447074028763d41dbfe0f8651dfc6e7562dafcd6"
+    },
+    {
+      "path": "manifests/species.example.yaml",
+      "status": "public-only",
+      "public_sha256": "77bf812fb6c071515922a81ae3dbd07dad30669bf02c3f7499d1c3f1d95251cc"
+    },
+    {
+      "path": "polargdb-home-beta-1.0.1.png",
+      "status": "public-only",
+      "public_sha256": "dc4b6b48b0347395869bc4cbed1540c2d07ba4d1ca82f96ff9faafd8c1b7167d"
+    }
+  ]
+}

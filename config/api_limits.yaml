@@ -1,0 +1,43 @@
+jobs:
+  max_concurrent_jobs: 2
+  job_retention_days: 7
+
+search:
+  max_query_characters: 100000
+  max_blast_sequences_per_request: 10
+  max_diamond_sequences_per_request: 100
+  max_hits: 100
+  timeout_seconds: 120
+  max_concurrent_jobs: 2
+  job_retention_days: 7
+
+genes:
+  default_page_size: 50
+  max_page_size: 500
+  default_suggest_size: 20
+  max_suggest_size: 100
+
+features:
+  default_page_size: 500
+  max_page_size: 2000
+
+expression:
+  max_genes_per_matrix_request: 100
+
+go:
+  max_similarity_rank: 20
+  max_enrichment_genes: 1000
+  max_enrichment_background_genes: 100000
+
+primer:
+  max_region_length: 100000
+  max_flank: 10000
+  max_offtarget_product_size: 5000
+  primer3_timeout_seconds: 60
+  specificity_timeout_seconds: 180
+
+similar:
+  max_selected_isoforms: 40
+  candidates_per_isoform: 5
+  raw_hits_per_isoform: 25
+  timeout_seconds: 120

@@ -1,0 +1,15 @@
+reference_id: rice_rapdb_irgsp1_2026
+scientific_name: Oryza sativa
+display_name: Rice RAP-DB IRGSP-1.0
+taxon_group: monocot
+assembly_version: IRGSP-1.0
+source_name: RAP-DB
+genome:
+  fasta: ../../datasets/reference/rice/genome.fa
+annotation:
+  file: ../../datasets/reference/rice/annotation.gff3.gz
+  format: gff3
+protein:
+  fasta: ../../datasets/reference/rice/protein.fa
+optional:
+  go_annotation: ../../datasets/reference/rice/go_annotation.tsv

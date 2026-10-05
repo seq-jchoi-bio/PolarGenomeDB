@@ -1,0 +1,10 @@
+.privacy-page h1 { margin: 0; color: #245a50; font-size: 30px; font-weight: 500; line-height: 1.3; }
+.privacy-version { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-bottom: 18px; color: #245a50; font-size: 14px; font-weight: 500; }
+.privacy-version span { color: #65736c; font-weight: 400; }
+.privacy-contact-fields { margin: 22px 0 0; font-size: 16px; line-height: 1.6; }
+.privacy-contact-fields > div { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 16px; padding: 10px 0; border-bottom: 1px solid #e0e7e3; }
+.privacy-contact-fields dt { color: #245a50; font-weight: 500; }
+.privacy-contact-fields dd { margin: 0; color: #53635b; }
+@media (max-width: 600px) {
+  .privacy-contact-fields > div { grid-template-columns: 1fr; gap: 3px; }
+}
